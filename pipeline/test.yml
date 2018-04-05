@@ -5,7 +5,7 @@ image_resource:
   source: {repository: node}
 
 inputs:
-  - name: sources
+  - name: install
     path: .
 run:
   path: ./pipeline/test.sh
