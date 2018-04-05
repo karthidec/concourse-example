@@ -4,8 +4,8 @@ image_resource:
   type: docker-image
   source: {repository: node}
 
-#inputs:
-  #- name: install
-#    path: .
+inputs:
+  - name: sources
+    path: .
 run:
   path: ./pipeline/test.sh
